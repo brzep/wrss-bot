@@ -1,7 +1,5 @@
 # wrss-bot
-Discord bot enhancing WRSS WIET &amp; WI workflow
-
-Tested for python 3.12
+Discord bot enhancing WRSS WI workflow
 
 ## installation:
 
@@ -34,7 +32,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
 ### doodle hub
-- searches for doodle links in all messages and forwards them do channel begin doodle hub along with reference to original message
+- searches for doodle links in all messages and forwards them to the doodle hub channel along with a reference to the original message
+- skips forwarding if the message is already in the doodle hub channel
 - makes sure all doodles are in one place, so you can fill them easily :)
 - adds `checkbox` reaction to all doodles on doodle channel to allow you for easily marking filled in doodles
 - supported doodle links are set via the `DOODLE_LINKS` environment variable
