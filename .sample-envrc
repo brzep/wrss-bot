@@ -1,5 +1,6 @@
 export SEEN_EMOJI_LONG_ID=<your_seen_emoji_long_id>
 export DOODLE_CHANNEL_ID=<your_doodle_channel_id>
+# Unicode character or codepoint (e.g. 0x2705)
 export DOODLE_SEEN_REACTION='✅'
 export NOTIFY_ROLE_ID=<your_notify_role_id>
 export DISCORD_CLIENT_TOKEN=<your_discord_client_token>

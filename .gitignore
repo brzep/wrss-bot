@@ -1,4 +1,3 @@
-config.py
 venv
 docker-compose.yml
 .envrc

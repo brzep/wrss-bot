@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY wrss-bot.py /app
 COPY settings.py /app
-COPY requirements.txt /app 
+COPY requirements.txt /app
 
 RUN python3 -m pip install -r requirements.txt
 
