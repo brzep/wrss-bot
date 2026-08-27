@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - searches for doodle links in all messages and forwards them do channel begin doodle hub along with reference to original message
 - makes sure all doodles are in one place, so you can fill them easily :)
 - adds `checkbox` reaction to all doodles on doodle channel to allow you for easily marking filled in doodles
-- supported doodle links can be specified in `config.py` file
+- supported doodle links are set via the `DOODLE_LINKS` environment variable
 
 ### reaction message
 - starts every thread with message showing all reactions to original posts
